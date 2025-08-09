@@ -4,11 +4,16 @@ Personal Portfolio Website
 This is my personal portfolio website built using HTML and CSS.
 It showcases my profile, education, experiences, skills, and contact information in a clean and responsive design.
 
-Features
-Responsive layout for desktop and mobile
+## Feature
+- Responsive layout for desktop and mobile
+- Modern glassmorphism design for skill cards
+- Smooth hover animations
+- Easy to customize
 
-Modern glassmorphism design for skill cards
+## file
+- index.html
+- style.css
+- foto.jpg
 
-Smooth hover animations
-
-Easy to customize
+## Live demo
+https://zann06.github.io/Portofolio-Website/
