@@ -23,38 +23,103 @@ a {
     color: inherit;
 }
 
-/* NAVBAR */
-nav {
+/* ===== NAVBAR ===== */
+.navbar {
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 0;
 }
 
-nav ul {
+/* sembunyikan checkbox tapi biarkan bisa di-toggle lewat label */
+.menu-toggle {
+    position: absolute;
+    left: -9999px;
+}
+
+/* hamburger (tampil hanya di mobile) */
+.hamburger {
+    display: none;
+    /* desktop: sembunyi */
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #2c3e50;
+    position: absolute;
+    right: 18px;
+    top: 12px;
+    user-select: none;
+}
+
+.nav-links {
     display: flex;
     justify-content: center;
     padding: 15px 0;
     list-style: none;
+    margin: 0;
 }
 
-nav ul li {
+.nav-links li {
     margin: 0 20px;
 }
 
-nav ul li a {
+.nav-links a {
     font-weight: 600;
     transition: color 0.3s;
     color: #2c3e50;
-    /* dark blue-gray */
+    /* warna link desktop */
 }
 
-nav ul li a:hover {
+.nav-links a:hover {
     color: #4ca1af;
-    /* teal accent */
 }
+
+/* ===== RESPONSIVE: mobile behaviour ===== */
+@media (max-width: 768px) {
+
+    /* tampilkan hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    /* sembunyikan menu (ul) default di mobile */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.98);
+        position: absolute;
+        right: 12px;
+        top: 52px;
+        width: calc(100% - 24px);
+        /* agar tidak melebihi layar */
+        max-width: 320px;
+        padding: 12px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 6px 12px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        width: 100%;
+        padding: 8px 4px;
+        color: #2c3e50;
+    }
+
+    /* jika checkbox dicentang, tampilkan menu */
+    .menu-toggle:checked~.nav-links {
+        display: flex;
+    }
+}
+
 
 /* HERO */
 header {
