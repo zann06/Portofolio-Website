@@ -15,7 +15,7 @@ It showcases my profile, education, experiences, skills, and contact information
 - style.css
 - foto.jpg
 
-## 📸 Demo Tampilan Navbar
+## 📸 Navbar Display Demo
 
 This navigation is designed to be responsive and user-friendly,
 ensuring an optimal display across various devices.
