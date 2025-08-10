@@ -31,7 +31,7 @@ During the development of this project, I received valuable assistance and inspi
 This navigation is designed to be responsive and user-friendly, ensuring an optimal display across various devices.
 
 ### 🖥 Desktop View  
-![Navbar Desktop](attachment/navbar-desktop.gif)
+![Navbar Desktop](attachment/navbar-desktop-appareance.png)
  
 
 ### 📱 Mobile View  
