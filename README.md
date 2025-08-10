@@ -40,12 +40,3 @@ This navigation is designed to be responsive and user-friendly, ensuring an opti
 
 ## Live Demo  
 [https://zann06.github.io/Portofolio-Website/](https://zann06.github.io/Portofolio-Website/)
-
-### 🖥 Desktop View
-![Desktop Navbar](attachment/navbar-desktop-appearance.png)
-
-### 📱 Mobile View
-![Mobile Navbar](attachment/navbar-mobile-appearance.png)
-
-## Live demo
-https://zann06.github.io/Portofolio-Website/
