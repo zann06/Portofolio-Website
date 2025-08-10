@@ -21,10 +21,10 @@ This navigation is designed to be responsive and user-friendly,
 ensuring an optimal display across various devices.
 
 ### 🖥 Desktop View
-![Desktop Navbar](attachment/navbar-desktop.gif)
+![Desktop Navbar](attachment/navbar-desktop.png)
 
 ### 📱 Mobile View
-![Mobile Navbar](attachment/navbar-mobile.gif)
+![Mobile Navbar](attachment/navbar-mobile.png)
 
 ## Live demo
 https://zann06.github.io/Portofolio-Website/
